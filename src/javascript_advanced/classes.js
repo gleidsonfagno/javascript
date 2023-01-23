@@ -1,3 +1,5 @@
+import { Cachorro } from "../javascript_Data_manipulation/modulesExports"
+
 class Animal {
 
     constructor(especie){
@@ -31,7 +33,9 @@ class Cachorro extends Animal{
 
 
 // rodar no terminal
-const cachorro = new Cachorro("cachorro")
-cachorro.falar()
-cachorro.comer()
-cachorro.dormir()
+// const cachorro = new Cachorro("cachorro")
+// cachorro.falar()
+// cachorro.comer()
+// cachorro.dormir()
+
+export default Cachorro
