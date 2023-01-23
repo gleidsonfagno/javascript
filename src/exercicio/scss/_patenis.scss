@@ -1,0 +1,98 @@
+@font-face{
+    font-family: Merriweather ;
+    src: url("../assetis/font/Merriweather-Regular.ttf");
+
+    font-family: Lato-bold;
+    src: url("../assetis/font/Lato-Bold.ttf");
+
+    font-family: Lato;
+    src: url("../assetis/font/Lato-Regular.ttf");
+}
+
+*{
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    text-decoration: none;
+}
+
+#form{
+    .cadastro{
+        position: relative;
+        i{
+            position: absolute;
+            top: 47px;
+            right: 10px;
+            visibility: hidden;
+        }
+        small{
+            position: absolute;
+            margin-top: 86px;
+            font-size: 14px;
+            visibility: hidden;
+        }
+    }
+
+    .cadastro.success input{
+        border: 1px solid #4eca64 !important;
+    }
+
+    .cadastro.error input{
+        border: 1px solid #db5a5a !important;
+    }
+
+    .cadastro.success i .img-success{
+        visibility: visible;
+    }
+
+    .cadastro.error i .img-error{
+        visibility: visible;
+    }
+
+    .cadastro.error small{
+        color: #db5a5a;
+        visibility: visible;
+    }
+
+    .buton{
+        button{
+            cursor: pointer;
+            font-family: 'Lato';
+            font-style: normal;
+            font-weight: 700;
+            font-size: 16px;
+            line-height: 19px;
+            color: #FFFFFF;
+            border: none;
+        }
+        .enviar{
+            background: #04C45C;
+            border-radius: 5px;
+            height: 50px;
+            a{
+                color: #FFFFFF;
+            }
+        }
+        .enviar:hover{
+            background: #03a850;
+        }
+        .login{
+            height: 50px;
+            background: #1A202C;
+            border-radius: 5px;
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            justify-content: center;
+            gap: 11px;
+            a{
+                color: #FFFFFF;
+            }
+        }
+        .login:hover{
+            background: #141a25;
+        }
+    }
+}

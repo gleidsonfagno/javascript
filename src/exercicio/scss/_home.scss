@@ -1,0 +1,126 @@
+section{
+    background: #F7FAFC;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 100%;
+    max-width: 140rem;
+    margin: 0 auto;
+    .left{
+        width: 50%;
+        padding: 0 5%;
+        height: 100%;
+        .img{
+            img{
+                margin: 0 auto;
+                display: block;
+                width: 100%;
+                max-width: 40rem;
+            }
+        }
+    }
+    #form{
+        background: #FFFFFF;
+        color: #1A202C;
+        padding-top: 213px;
+        width: 50%;
+        padding-right: 5%;
+        padding-left: 5%;
+        .right{
+            margin:0 auto;
+            max-width: 35rem;
+            width: 100%;
+            display: flex;
+            flex-direction: column;
+
+            h2{
+                padding-bottom: 7px;
+                font-family: 'Merriweather';
+                font-weight: 400;
+                font-size: 16px;
+                line-height: 20px;
+            }
+            h1{
+                font-family: 'Merriweather';
+                font-weight: 700;
+                font-size: 26px;
+                line-height: 33px;
+                padding-bottom: 39px;
+
+            }
+
+            .cadastro{
+                width: 100%;
+                display: flex;
+                flex-direction: column;
+                padding-bottom: 1.1rem;
+                label{
+                    font-family: 'Lato-bold';
+                    font-weight: 400;
+                    font-size: 1.6rem;
+                    line-height: 1.9rem;
+                }
+                input{
+                    border: 0.1rem solid #E8E8E8;
+                    border-radius: 0.5rem;
+                    padding: 20px;
+                }
+            
+                :focus{
+                    outline: none;
+                }
+                input:focus{
+                    border-color: #00ccff !important;
+                }
+            }
+
+            .checked{
+                display: flex;
+                flex-direction: row;
+                justify-content: space-between;
+                padding-top: 28px;
+                font-size: 14px;
+                line-height: 17px;
+                padding-bottom: 26px;
+            }
+
+            .buton{
+                display: flex;
+                flex-direction: column;
+                gap: 15px;
+                padding-bottom: 162px;
+            }
+
+
+            .footer{
+                text-align: center;
+                padding-bottom: 50px;
+            }
+        }
+    }
+
+}
+
+@media (max-width: 750px) {
+
+    section{
+        display: flex;
+        flex-direction: column;
+        .left{
+            display: none;
+        }
+        #form{
+            width: 100%;
+            // padding: 0;
+            // margin: 0;
+            padding: 32px 0 ;
+            // margin: 0 auto;
+            .right{
+                max-width: 90%;
+                margin: auto;
+                // padding: 0 2.1rem  ;
+            }
+        }
+    }
+    
+}

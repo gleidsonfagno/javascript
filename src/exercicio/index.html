@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>login</title>
+    <link rel="stylesheet" href="css/main.min.css">
+</head>
+<body>
+    <section>
+
+        <div class="left">
+            <div class="img">
+                <img src="assetis/image/illustration.svg" alt="illustration">
+            </div>
+        </div>
+
+        <form class="form" id="form">
+
+            <div class="right">
+
+                <h2>Bem vindo de volta</h2>
+    
+                <h1>Faça login na sua conta</h1>
+    
+                <div class="cadastro ">
+                    <label for="name">Nome:</label>
+                    <!-- <input required type="text" id="name"> -->
+                    <input type="text" id="username" minlength="2" maxlength="40">
+                    <i><img class="img-success" src="assetis/image/success-icon.svg" alt="success"></i>
+                    <i><img class="img-error" src="assetis/image/error-icon.svg" alt="error"></i>
+                    <small>Error messege</small>
+                </div>
+        
+                <div class="cadastro ">
+                    <label for="email">E-mail:</label>
+                    <!-- <input type="email" id="email"> -->
+                    <input type="email" id="email" minlength="2" maxlength="30">
+                    <i><img class="img-success" src="assetis/image/success-icon.svg" alt="success"></i>
+                    <i><img class="img-error" src="assetis/image/error-icon.svg" alt="error"></i>
+                    <small>Error messege</small>
+                </div>
+        
+                <div class="cadastro">
+                    <label for="password">Senha</label>
+                    <input type="password" id="password" minlength="6" maxlength="8">
+                    <i><img class="img-success" src="assetis/image/success-icon.svg" alt="success"></i>
+                    <i><img class="img-error" src="assetis/image/error-icon.svg" alt="error"></i>
+                    <small>Error messege</small>
+                </div>
+        
+                <div class="checked">
+                    <span>
+                        <input type="checkbox" name="Lembre de mim "> Lembre de mim
+                    </span>
+    
+                    <a href="#">Esqueceu sua senha? </a>
+                </div>
+        
+                <div class="buton">
+                    <button type="submit" class="enviar">
+                        <!-- <a href="#">Entrar</a> -->
+                        Entrar
+                    </button>
+    
+                    <button class="login">
+                        <img src="assetis/image/Google.png" alt="logo">
+                        <span><a href="#">Ou faça login com o Google </a></span>
+                    </button>
+                </div>
+    
+                <div class="footer">
+                    <span>Não tem uma conta? <a href="#">Cadastre-se</a></span>
+                </div>
+
+
+            </div>
+
+        </form>
+    
+    </section>
+
+    <script src="js/main.js"></script>
+</body>
+</html>
