@@ -38,4 +38,4 @@ class Cachorro extends Animal{
 // cachorro.comer()
 // cachorro.dormir()
 
-export default Cachorro
+export default Cachorro();

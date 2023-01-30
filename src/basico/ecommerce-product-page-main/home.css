@@ -1,27 +1,42 @@
 section{
      display: flex;
      flex-direction: row;
+     border: 1px solid red;
+     padding-top: 2rem;
+     padding: 6.2rem;
 }
 
-.left{
+.modal{
+     width: 50% !;
+     max-width: 530px;
+     align-items: center;
      display: flex;
      flex-direction: column;
-     max-width: 600px;
+     border: 1px solid red;
+}
+
+.img-modal{
+     max-width: 530px;
      width: 100%;
      margin: 0 auto;
 }
 
-.img{
+.img-modal{
    width: 100%;
-   height: 500px;
+   border: 1px solid red;
 }
 
 .tabs{
-     display: flex;
+     /* display: flex;
      flex-direction: row;
+     justify-content: center; */
+     border: 1px solid red;
+     /* gap: 1rem; */
+     width: 100%;
+     text-align: center;
 }
 
 .tabs img{
-     width: 20%;
-     
+     width: 24.1%;
+     border: 1px solid red;
 }

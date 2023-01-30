@@ -70,7 +70,7 @@ nav a{
      height: 250px !important;
      display: none;
      box-shadow: -1px 4px 7px -3px black;
-     position: fixed;
+     position: absolute;
      top: 85px;
      right: 18px;
      background: #fff;
