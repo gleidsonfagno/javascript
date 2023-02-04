@@ -1,0 +1,54 @@
+*{
+     font-family: 'Nunito Sans', sans-serif;
+     padding: 0;
+     margin: 0;
+     color: #333;
+     box-sizing: border-box;
+     list-style-type: none;
+     background: #f0f0f0;
+}
+
+#home{
+     background: #fff;
+     padding: 25px;
+     text-align: center;
+     padding-top: 50px;
+     max-width: 500px;
+     width: 100%;
+     margin: auto;
+     box-shadow: 3px 19px 14px 3px #333;;
+}
+
+.form h1{
+     text-transform: uppercase;
+     color: #333;
+}
+
+input{
+     text-align: center;
+     padding: 10px;
+}
+form{
+     margin-top: 20px;
+}
+form button{
+     padding: 10px;
+     background: rgb(0, 255, 0);
+     color: #fff;
+     border: none;
+     font-size: 15px;
+}
+li{
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     gap: 2rem;
+}
+li span{
+     border-bottom: 1px solid #ccc;
+}
+li button{
+     color: red;
+     background: transparent;
+     border: none;
+}
